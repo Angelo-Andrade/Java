@@ -4,7 +4,7 @@ public class ContaBancaria {
 	private int numeroConta;
 	private double saldo;
 	
-	ContaBancaria (int numeroConta, double saldo) {
+	public ContaBancaria (int numeroConta, double saldo) {
 		this.numeroConta = numeroConta;
 		this.saldo = saldo;
 	}
