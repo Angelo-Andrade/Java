@@ -5,7 +5,7 @@ public class Estudante {
 	private int idade;
 	private float nota;
 	
-	Estudante(String inNome, int inIdade, float inNota) {
+	public Estudante(String inNome, int inIdade, float inNota) {
 		nome = inNome;
 		idade = inIdade;
 		nota = inNota;
