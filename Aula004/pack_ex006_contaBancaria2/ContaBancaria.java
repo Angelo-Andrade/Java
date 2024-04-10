@@ -1,3 +1,4 @@
+package pack_ex006_contaBancaria2;
 public class ContaBancaria {
   
 	private int numeroConta;
