@@ -1,3 +1,4 @@
+package pack_ex007_agenda;
 public class Compromissos {
   private String data;
   private String hora;
