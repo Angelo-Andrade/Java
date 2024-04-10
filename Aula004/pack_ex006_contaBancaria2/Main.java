@@ -1,3 +1,4 @@
+package pack_ex006_contaBancaria2;
 import java.util.Scanner;
 
 public class Main {
