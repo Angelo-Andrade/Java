@@ -1,4 +1,4 @@
-package Interface Iteravel;
+package InterfaceIteravel;
 
 import java.util.Iterator;
 
