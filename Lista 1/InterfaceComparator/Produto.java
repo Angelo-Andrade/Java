@@ -1,5 +1,7 @@
 package InterfaceComparator;
 
+import java.util.Comparator;
+
 class Produto implements Comparable<Produto> {
     private String nome;
     private double preco;
@@ -20,6 +22,15 @@ class Produto implements Comparable<Produto> {
     @Override
     public int compareTo(Produto outroProduto) {
         return Double.compare(this.preco, outroProduto.getPreco());
+    }
+    
+    public static Comparator<Produto> compararPorNome() {
+        return new Comparator<Produto>() {
+            @Override
+            public int compare(Produto p1, Produto p2) {
+                return p1.getNome().compareTo(p2.getNome());
+            }
+        };
     }
 
     @Override
