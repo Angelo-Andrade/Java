@@ -1,5 +1,9 @@
 package InterfaceComparator;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
         List<Produto> produtos = new ArrayList<>();
@@ -17,7 +21,7 @@ public class Main {
         }
 
         // Ordenando por nome (Comparator)
-        Collections.sort(produtos, new OrdenarPorNome());
+        Collections.sort(produtos, Produto.compararPorNome());
         System.out.println("\nProdutos ordenados por nome:");
         for (Produto produto : produtos) {
             System.out.println(produto);
